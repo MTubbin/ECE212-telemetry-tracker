@@ -10,6 +10,230 @@
 		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "BMM350:BMM350"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 13.208 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMM350_1_1"
+				(rectangle
+					(start -13.97 10.16)
+					(end 13.97 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -16.51 2.54 0)
+					(length 2.54)
+					(name "ADSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -5.08 0)
+					(length 2.54)
+					(name "CRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -13.97 90)
+					(length 2.54)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -1.27 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4243,9 +4467,9 @@
 		)
 		(uuid "5020f482-3f48-4f2c-9dcd-ddf51b28421f")
 	)
-	(text "USB-C (DONE)\nLDO (DONE)\nGPS (IN PROGRESS)\nMAGNETOMETER\nMICROSD\nBATTERY MGMT."
+	(text "USB-C (DONE)\nLDO (DONE)\nGPS (IN PROGRESS)\nMAGNETOMETER (make symbol and footprint)\nMICROSD\nBATTERY MGMT."
 		(exclude_from_sim no)
-		(at -27.432 27.94 0)
+		(at -50.038 27.432 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8193,6 +8417,96 @@
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMM350:BMM350")
+		(at 219.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd1840f4-f524-4bf9-b393-a63dc96152d9")
+		(property "Reference" "U5"
+			(at 226.314 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMM350"
+			(at 226.314 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C1"
+			(uuid "e54d84ff-0668-4b76-ae51-897a51e24b45")
+		)
+		(pin "B2"
+			(uuid "05b811a2-c982-476f-a3cc-bfb9ca9858f7")
+		)
+		(pin "C2"
+			(uuid "b3e6120c-abb1-47f5-a118-a0707adbdec5")
+		)
+		(pin "B3"
+			(uuid "7aa07e97-8703-4b6f-929c-5a011b7ac993")
+		)
+		(pin "B1"
+			(uuid "e419d6bd-0943-416b-a34d-34e4753fae55")
+		)
+		(pin "A1"
+			(uuid "99ea262f-c185-45fc-95ca-2b46fec81af6")
+		)
+		(pin "A2"
+			(uuid "de16cf3d-d2be-4703-98d7-b29f101a2eda")
+		)
+		(pin "C3"
+			(uuid "0cc2454a-3402-496d-ad70-95f66ffb4389")
+		)
+		(pin "A3"
+			(uuid "b3d78fc7-2abc-4feb-9259-0b35653d74b6")
+		)
+		(instances
+			(project ""
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69"
+					(reference "U5")
 					(unit 1)
 				)
 			)

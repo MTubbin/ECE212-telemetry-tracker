@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMM350")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbol/BMM350.kicad_sym")(options "")(descr ""))
+  (lib (name "BMM350-Test")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbol/2026-01-08_02-27-22.kicad_sym")(options "")(descr ""))
+)
