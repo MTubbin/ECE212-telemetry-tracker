@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 13.208 11.176 0)
+			(at 14.478 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "BMM350"
-			(at 10.668 -13.208 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf"
+			(at 2.286 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "16-bit 3-axis magnetic sensor, TMR technology, I2C/I3C interface, 1.28x1.28mm WLCSP-9 package"
+			(at 0.508 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,10 +51,10 @@
 		)
 		(symbol "BMM350_1_1"
 			(rectangle
-				(start -13.97 10.16)
-				(end 13.97 -11.43)
+				(start -10.16 10.16)
+				(end 11.43 -11.43)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type solid)
 				)
 				(fill
@@ -62,7 +62,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 2.54 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "ADSEL"
 					(effects
@@ -79,17 +79,35 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -16.51 -5.08 0)
+			(pin input line
+				(at -12.7 -1.27 0)
 				(length 2.54)
-				(name "CRST"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C2"
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -98,7 +116,25 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 12.7 270)
+				(at -3.81 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 12.7 270)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
@@ -115,17 +151,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -13.97 90)
+			(pin passive line
+				(at 1.27 -13.97 90)
 				(length 2.54)
-				(name "GND"
+				(name "BYPASS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B1"
+				(number "C3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,16 +188,16 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -13.97 90)
+				(at 6.35 -13.97 90)
 				(length 2.54)
-				(name "BYPASS"
+				(name "CRST"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C3"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -170,7 +206,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 2.54 180)
+				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -180,42 +216,6 @@
 					)
 				)
 				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -1.27 180)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -5.08 180)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A3"
 					(effects
 						(font
 							(size 1.27 1.27)

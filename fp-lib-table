@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Package_BGA_Custom")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/Package_BGA_Custom.pretty")(options "")(descr ""))
+)
