@@ -3,4 +3,5 @@
   (lib (name "Package_BGA_Custom")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/Package_BGA_Custom.pretty")(options "")(descr ""))
   (lib (name "MonolithicPower_MP26xx")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MonolithicPower_MP26xx.pretty")(options "")(descr ""))
   (lib (name "MP2667_DL")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MP2667_DL.pretty")(options "")(descr ""))
+  (lib (name "MSD-4-A_DL")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MSD-4-A_DL.pretty")(options "")(descr ""))
 )

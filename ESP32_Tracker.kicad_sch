@@ -5585,7 +5585,7 @@
 		)
 		(uuid "649ee3e6-b369-46c7-bee7-33e8ff693b7d")
 	)
-	(text "USB-C (DONE)\nLDO (DONE)\nGPS (DONE)\nMAGNETOMETER (DONE)\nMICROSD (DONE)\nBATTERY MGMT. (DONE)\nBUTTONS (IN PROGRESS)\nSTATUS LEDs (IN PROGRESS)\nRTC for Low PWR mode (Shipping mode on MP2667?)"
+	(text "USB-C (DONE)\nLDO (DONE)\nGPS (DONE)\nMAGNETOMETER (DONE)\nMICROSD (DONE)\nBATTERY MGMT. (DONE)\nBUTTONS (IN PROGRESS)\nSTATUS LEDs (IN PROGRESS)\nOLED CONN (?)\nRTC for Low PWR mode (Shipping mode on MP2667?)"
 		(exclude_from_sim no)
 		(at -55.372 29.718 0)
 		(effects
@@ -11634,7 +11634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LIS2MDLTR"
 			(at 204.47 139.7 0)
 			(effects
 				(font
@@ -11643,7 +11643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 204.47 139.7 0)
 			(effects
 				(font
@@ -12470,7 +12470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MP2667_DL:QFN-10_2MMx2MM_MNP"
 			(at 148.59 43.18 0)
 			(effects
 				(font
@@ -12490,6 +12490,33 @@
 		)
 		(property "Description" "IC BATT CONTRL LI-ION 1CEL 10QFN"
 			(at 147.574 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2667GG-0000-Z/11611000"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MP2667GG-0000-Z"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Monolithic Power Systems Inc."
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SAM-M10Q-00B"
 			(at 240.03 87.63 0)
 			(effects
 				(font
@@ -15523,7 +15550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "u-blox"
 			(at 240.03 87.63 0)
 			(effects
 				(font
@@ -16159,7 +16186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MSD-4-A_DL:CUI_MSD-4-A"
 			(at 443.23 128.27 0)
 			(effects
 				(font
@@ -16195,7 +16222,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MSD-4-A"
 			(at 391.16 146.05 0)
 			(effects
 				(font
@@ -16204,7 +16231,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 391.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/MSD-4-A/21796808"
 			(at 391.16 146.05 0)
 			(effects
 				(font
@@ -17932,7 +17968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 118.11 170.18 0)
 			(effects
 				(font
@@ -17941,7 +17977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965812.pdf"
 			(at 118.11 170.18 0)
 			(effects
 				(font
@@ -17960,6 +17996,42 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C965812.html"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965812"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-2012SURC"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
 			(at 118.11 170.18 0)
 			(effects
 				(font
