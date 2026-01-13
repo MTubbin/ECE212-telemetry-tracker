@@ -5585,7 +5585,7 @@
 		)
 		(uuid "649ee3e6-b369-46c7-bee7-33e8ff693b7d")
 	)
-	(text "USB-C (DONE)\nLDO (DONE)\nGPS (DONE)\nMAGNETOMETER (DONE)\nMICROSD (DONE)\nBATTERY MGMT. (DONE)\nBUTTONS (IN PROGRESS)\nSTATUS LEDs (IN PROGRESS)\nOLED CONN (?)\nRTC for Low PWR mode (Shipping mode on MP2667?)"
+	(text "USB-C (DONE)\nLDO (DONE)\nGPS (DONE)\nMAGNETOMETER (DONE)\nMICROSD (DONE)\nBATTERY MGMT. (DONE)\n\n\nBUTTONS (IN PROGRESS)\nSTATUS LEDs (IN PROGRESS)\nPWR CONSUMPTION (IN PROGRESS)\nOLED CONN (?)\nRTC for Low PWR mode (Shipping mode on MP2667?)"
 		(exclude_from_sim no)
 		(at -55.372 29.718 0)
 		(effects
@@ -5694,6 +5694,16 @@
 			)
 		)
 		(uuid "ebfdd36f-15de-43c7-b492-12f45b5a99c3")
+	)
+	(text "toggle button\nrecord button\nlow power"
+		(exclude_from_sim no)
+		(at -20.32 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe03f29a-104c-4bef-9416-5bfd0bc34757")
 	)
 	(junction
 		(at 204.47 157.48)
