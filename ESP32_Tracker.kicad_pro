@@ -51,7 +51,18 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.5,
+          "width": 0.3
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,8 +128,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.2,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -129,10 +140,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.2,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +191,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.3,
+        0.5,
+        0.8
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +225,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -474,14 +501,97 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(95, 95, 95)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GPIO",
+        "pcb_color": "rgb(78, 105, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 145, 4)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(0, 255, 4)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(253, 255, 0)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/PWR/USB_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/PWR/USB_P"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*+3.3V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*VBUS"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*GND"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*DATA"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*CLK"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*DC"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*CS"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*MOSI"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*MISO"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*INT"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*DETECT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -603,6 +713,30 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -656,6 +790,18 @@
     [
       "92195c42-0bc4-473e-a890-6f85786d3c69",
       "Root"
+    ],
+    [
+      "b4df9ef1-8ff4-45c1-a208-fa7b3317f92b",
+      "MCU/PWR"
+    ],
+    [
+      "df595db4-adad-4efb-b42f-768fb30b12a2",
+      "Sensors"
+    ],
+    [
+      "397d7a99-8f38-42c5-a73f-5d1ccdc57b5a",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
