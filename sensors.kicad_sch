@@ -1310,16 +1310,6 @@
 	)
 	(text "ceram."
 		(exclude_from_sim no)
-		(at 86.868 64.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "09e20df5-36ac-4aea-8a7c-b6698aeb3950")
-	)
-	(text "ceram."
-		(exclude_from_sim no)
 		(at 113.284 89.154 0)
 		(effects
 			(font
@@ -1358,26 +1348,6 @@
 		)
 		(uuid "96d6deca-5408-4911-b42d-d2412768034c")
 	)
-	(text "alum."
-		(exclude_from_sim no)
-		(at 61.976 64.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b45e5451-647f-4177-9138-05257cbf27b9")
-	)
-	(text "ceram."
-		(exclude_from_sim no)
-		(at 74.168 64.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c568d914-8942-4aa6-90b6-3fcfc9b2af67")
-	)
 	(text "bypass caps\nTYP.APP.\n"
 		(exclude_from_sim no)
 		(at 76.708 51.816 0)
@@ -1387,6 +1357,16 @@
 			)
 		)
 		(uuid "de790e84-b561-470b-8e84-895c91d6e6ef")
+	)
+	(text "Potentially remove bulk cap?\n"
+		(exclude_from_sim no)
+		(at 40.386 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eed3c897-ac0e-480c-baa0-a6ce9125d178")
 	)
 	(junction
 		(at 92.71 55.88)
@@ -2806,6 +2786,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 168.91 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "761eedf0-14fd-4c70-9898-89ace6305783")
+		(property "Reference" "C17"
+			(at 165.1 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 165.1 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.9448 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C95841.pdf"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95841"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KOQNNNE"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/C95841.html"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8c70fbe-feb1-488d-9f8c-106c07eac7ac")
+		)
+		(pin "1"
+			(uuid "faf7f6ea-01a7-4421-acfc-ae1ca14c9d8a")
+		)
+		(instances
+			(project "ESP32_Tracker"
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/df595db4-adad-4efb-b42f-768fb30b12a2"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 101.6 0)
 		(unit 1)
@@ -2932,109 +3018,6 @@
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/df595db4-adad-4efb-b42f-768fb30b12a2"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e051605-6a51-4d80-87af-f3e7a2b80e71")
-		(property "Reference" "C17"
-			(at 161.29 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 163.83 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 169.8752 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28234.pdf"
-			(at 168.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28234"
-			(at 168.91 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21B225KOFNNNE"
-			(at 168.91 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 168.91 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C28234.html"
-			(at 168.91 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9e03774-8f8d-4813-bda0-9148dd72967c")
-		)
-		(pin "1"
-			(uuid "5f396b3b-3e4c-4468-b60d-cdf1427895cf")
-		)
-		(instances
-			(project "ESP32_Tracker"
-				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/df595db4-adad-4efb-b42f-768fb30b12a2"
-					(reference "C17")
 					(unit 1)
 				)
 			)

@@ -2885,116 +2885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x07_Socket")
-		(at 151.13 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76d9bbd6-8b34-4ebe-b97d-3996f173691a")
-		(property "Reference" "J3"
-			(at 156.21 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x07_Socket"
-			(at 153.67 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S7B-XH-A_1x07_P2.50mm_Horizontal"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S7B-XH-A/1651038"
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "S7B-XH-A"
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f1ba23b-5d18-40c2-9e44-38b15f8b46a0")
-		)
-		(pin "3"
-			(uuid "57d8e25f-ccae-415c-920e-c1ce0a6ace7f")
-		)
-		(pin "5"
-			(uuid "208dc2b5-f40d-4c5a-bd81-5c0036569ac9")
-		)
-		(pin "7"
-			(uuid "f0bbd459-e811-4d01-a0ee-cb95031e598e")
-		)
-		(pin "2"
-			(uuid "edd1c0d0-9f01-4759-9d0b-1f93785dce18")
-		)
-		(pin "4"
-			(uuid "72385faf-29bd-4947-bc32-079763f21167")
-		)
-		(pin "6"
-			(uuid "f96db3a4-75f4-452a-895a-b72128c6be56")
-		)
-		(instances
-			(project "ESP32_Tracker"
-				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 135.89 0)
 		(unit 1)
@@ -3808,6 +3698,116 @@
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x07_Socket")
+		(at 151.13 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f85524de-aded-4255-bcf1-9f7cc8fe8768")
+		(property "Reference" "J5"
+			(at 156.21 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07_Socket"
+			(at 153.67 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S7B-PH-K-S/926631"
+			(at 151.13 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S7B-PH-K-S"
+			(at 151.13 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 151.13 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba3a4a65-7f29-48b0-9f50-6a35e408eb2b")
+		)
+		(pin "3"
+			(uuid "e9e155cc-75d2-4721-af1c-ebac1f20cd9b")
+		)
+		(pin "5"
+			(uuid "8d0d99d5-cb06-4f57-98d4-6d115092c966")
+		)
+		(pin "7"
+			(uuid "5579673e-10cf-4b9b-9200-b66505339207")
+		)
+		(pin "2"
+			(uuid "7e055e7a-5cf2-4cfb-bb24-bf49a444f718")
+		)
+		(pin "4"
+			(uuid "56aaf700-b22d-4efd-bb29-b1cfb1ab2e7c")
+		)
+		(pin "6"
+			(uuid "079829b9-26e9-4270-b71a-f2eb4bb2b4aa")
+		)
+		(instances
+			(project "ESP32_Tracker"
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
+					(reference "J5")
 					(unit 1)
 				)
 			)
