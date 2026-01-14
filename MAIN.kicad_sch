@@ -4630,7 +4630,7 @@
 	)
 	(text "(board) TX -> RX (external)\n(board) RX -> TX (external)"
 		(exclude_from_sim no)
-		(at 145.542 107.442 0)
+		(at 147.828 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4660,7 +4660,7 @@
 	)
 	(text "External Programmer to reduce BOM and board size\nFTDI adapter \n"
 		(exclude_from_sim no)
-		(at 144.526 102.362 0)
+		(at 146.812 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7973,6 +7973,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "300b5506-4a50-47db-9a6d-06d6b2b7aa46")
+		(property "Reference" "TP9"
+			(at 113.284 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 107.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 107.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 107.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "271f3fd9-4f91-4a53-9b1b-61a90ace4efc")
+		)
+		(instances
+			(project "ESP32_Tracker"
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 180.34 41.91 0)
 		(unit 1)
@@ -8846,7 +8940,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 125.73 46.736 0)
+			(at 125.73 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)

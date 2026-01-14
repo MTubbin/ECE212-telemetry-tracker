@@ -1375,12 +1375,6 @@
 		(uuid "1fa50c6f-a1e0-47b2-a22a-a0a13d723639")
 	)
 	(junction
-		(at 63.5 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "337151aa-d698-4fcf-af01-d6eba3823e8a")
-	)
-	(junction
 		(at 96.52 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1545,16 +1539,6 @@
 			(type default)
 		)
 		(uuid "0c159c43-757c-4211-9947-1da81d7d6a65")
-	)
-	(wire
-		(pts
-			(xy 63.5 68.58) (xy 71.12 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18814ac9-b262-4465-8034-d4aad39fff15")
 	)
 	(wire
 		(pts
@@ -1958,16 +1942,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 77.47) (xy 71.12 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fc5d3d-fa67-4f83-981e-882626569687")
-	)
-	(wire
-		(pts
 			(xy 50.8 82.55) (xy 58.42 82.55)
 		)
 		(stroke
@@ -2095,6 +2069,16 @@
 			(type default)
 		)
 		(uuid "e6540512-34c8-493b-ae37-a827929cc19c")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 71.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90b325b-d1e0-4aab-a862-f1c42e7ec91e")
 	)
 	(wire
 		(pts
@@ -2780,6 +2764,71 @@
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/df595db4-adad-4efb-b42f-768fb30b12a2"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55034489-46e6-411a-be11-42e789cccc8b")
+		(property "Reference" "#PWR04"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af48c55d-35d8-4565-b6a9-742493c7a898")
+		)
+		(instances
+			(project "ESP32_Tracker"
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/df595db4-adad-4efb-b42f-768fb30b12a2"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3900,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7b4b194-b9f2-4774-b7da-5eeaddbc26a1")
 		(property "Reference" "#PWR030"
 			(at 96.52 57.15 0)
@@ -3863,7 +3911,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 96.52 48.26 0)
+			(at 96.52 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
