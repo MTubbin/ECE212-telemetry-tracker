@@ -4,4 +4,5 @@
   (lib (name "MonolithicPower_MP26xx")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MonolithicPower_MP26xx.pretty")(options "")(descr ""))
   (lib (name "MP2667_DL")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MP2667_DL.pretty")(options "")(descr ""))
   (lib (name "MSD-4-A_DL")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MSD-4-A_DL.pretty")(options "")(descr ""))
+  (lib (name "MSD-4_NEWDL")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/MSD-4_NEWDL.pretty")(options "")(descr ""))
 )

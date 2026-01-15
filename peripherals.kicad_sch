@@ -1263,7 +1263,7 @@
 	)
 	(text "2.42\" OLED display"
 		(exclude_from_sim no)
-		(at 120.396 109.982 0)
+		(at 118.872 112.014 0)
 		(effects
 			(font
 				(size 1.27 1.27)
