@@ -8647,7 +8647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -8656,7 +8656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
+		(property "Datasheet" ""
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -8683,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "B3U-1000P"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -8692,7 +8692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -8701,7 +8701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C720477.html?s_z=n_push%2520button%2520switch"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlg0O0xjmCmUbyKlcuGb4oGh0&gclid=CjwKCAiA4KfLBhB0EiwAUY7GAQ-b3iPcxPGC034MJCcv0szfw6wekoSPvS7JzjO8BYSXgQE8oVGvMRoCSdUQAvD_BwE"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -10420,7 +10420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 46.99 111.76 0)
 			(effects
 				(font
@@ -10429,7 +10429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
+		(property "Datasheet" ""
 			(at 46.99 111.76 0)
 			(effects
 				(font
@@ -10456,7 +10456,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "B3U-1000P"
 			(at 46.99 116.84 0)
 			(effects
 				(font
@@ -10465,7 +10465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
 			(at 46.99 116.84 0)
 			(effects
 				(font
@@ -10474,7 +10474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C720477.html?s_z=n_push%2520button%2520switch"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlg0O0xjmCmUbyKlcuGb4oGh0&gclid=CjwKCAiA4KfLBhB0EiwAUY7GAQ-b3iPcxPGC034MJCcv0szfw6wekoSPvS7JzjO8BYSXgQE8oVGvMRoCSdUQAvD_BwE"
 			(at 46.99 116.84 0)
 			(effects
 				(font
