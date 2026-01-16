@@ -444,6 +444,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" ""
+			(at 261.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b13cfaca-7d39-420a-997f-9b226bf541e0")
 		)
@@ -732,6 +741,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" ""
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07bb1ea5-d1c9-42de-ac5e-a36a2758f4be")
 		)
@@ -817,6 +835,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 261.62 137.16 0)
 			(effects
 				(font

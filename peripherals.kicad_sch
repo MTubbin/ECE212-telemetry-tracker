@@ -2198,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95841.pdf"
+		(property "Datasheet" ""
 			(at 113.03 128.27 0)
 			(effects
 				(font
@@ -2243,7 +2243,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C95841.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B106KOQNNNE/3888530"
+			(at 113.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 113.03 128.27 0)
 			(effects
 				(font
@@ -2303,7 +2312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C519980.pdf"
+		(property "Datasheet" ""
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -2330,7 +2339,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R7BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -2339,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -2348,7 +2357,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C519980.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+			(at 147.32 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -2409,7 +2427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C519980.pdf"
+		(property "Datasheet" ""
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -2436,7 +2454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R7BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -2445,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -2454,7 +2472,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C519980.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -2580,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+		(property "Datasheet" ""
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -2607,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F1002T5E"
+		(property "MPN" "RC0805JR-0710KL"
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -2616,7 +2643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -2625,7 +2652,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C17414.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -2815,7 +2851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+		(property "Datasheet" ""
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -2842,7 +2878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F1002T5E"
+		(property "MPN" "RC0805JR-0710KL"
 			(at 111.76 41.91 90)
 			(effects
 				(font
@@ -2851,7 +2887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 111.76 41.91 90)
 			(effects
 				(font
@@ -2860,7 +2896,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C17414.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241"
+			(at 111.76 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 111.76 41.91 90)
 			(effects
 				(font
@@ -2983,7 +3028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+		(property "Datasheet" ""
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -3010,7 +3055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F1002T5E"
+		(property "MPN" "RC0805JR-0710KL"
 			(at 137.16 41.91 90)
 			(effects
 				(font
@@ -3019,7 +3064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 137.16 41.91 90)
 			(effects
 				(font
@@ -3028,7 +3073,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C17414.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241"
+			(at 137.16 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 137.16 41.91 90)
 			(effects
 				(font
@@ -3086,7 +3140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+		(property "Datasheet" ""
 			(at 118.11 41.91 0)
 			(effects
 				(font
@@ -3113,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F1002T5E"
+		(property "MPN" "RC0805JR-0710KL"
 			(at 118.11 41.91 90)
 			(effects
 				(font
@@ -3122,7 +3176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 118.11 41.91 90)
 			(effects
 				(font
@@ -3131,7 +3185,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C17414.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241"
+			(at 118.11 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 118.11 41.91 90)
 			(effects
 				(font
@@ -3278,6 +3341,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" ""
+			(at 181.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "ee5c0bbc-fca7-4027-a862-deeabdeeccdf")
 		)
@@ -3360,7 +3432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+		(property "Datasheet" ""
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -3387,7 +3459,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F1002T5E"
+		(property "MPN" "RC0805JR-0710KL"
 			(at 130.81 41.91 90)
 			(effects
 				(font
@@ -3396,7 +3468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 130.81 41.91 90)
 			(effects
 				(font
@@ -3405,7 +3477,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C17414.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241"
+			(at 130.81 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 130.81 41.91 90)
 			(effects
 				(font
@@ -3531,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95841.pdf"
+		(property "Datasheet" ""
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -3576,7 +3657,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C95841.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B106KOQNNNE/3888530"
+			(at 158.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -3634,7 +3724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+		(property "Datasheet" ""
 			(at 124.46 41.91 0)
 			(effects
 				(font
@@ -3661,7 +3751,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F1002T5E"
+		(property "MPN" "RC0805JR-0710KL"
 			(at 124.46 41.91 90)
 			(effects
 				(font
@@ -3670,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 124.46 41.91 90)
 			(effects
 				(font
@@ -3679,7 +3769,16 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C17414.html"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241"
+			(at 124.46 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 124.46 41.91 90)
 			(effects
 				(font
@@ -3775,6 +3874,15 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
+			(at 151.13 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
 			(at 151.13 142.24 90)
 			(effects
 				(font
