@@ -65,6 +65,22 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|120975000|88100000|056bfc6a-ee90-4bc8-8902-f533740537c3|6d6a6806-e62f-4c0a-9a77-5a4213ac3ffc",
+          ""
+        ],
+        [
+          "hole_clearance|120975000|88100000|056bfc6a-ee90-4bc8-8902-f533740537c3|bad9c39b-035b-4c17-85df-e222a6e7ac48",
+          ""
+        ],
+        [
+          "hole_clearance|120975000|94200000|12370cbc-c614-4c6a-947d-aacca055fdca|2b19facf-6932-4a67-8b13-b54a87d5bd36",
+          ""
+        ],
+        [
+          "hole_clearance|120975000|94200000|12370cbc-c614-4c6a-947d-aacca055fdca|60c57adb-d831-443f-90c8-89f38eea8fcc",
+          ""
+        ],
+        [
           "silk_edge_clearance|116739999|62220595|57adba6b-8262-4e98-ac95-49e0fc31dfc0|2c5fbf9d-991f-46a9-a2f3-1ecf98f1257a",
           ""
         ],
