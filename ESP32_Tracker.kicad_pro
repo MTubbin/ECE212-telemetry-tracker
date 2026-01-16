@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.158
         }
       ],
       "drc_exclusions": [
@@ -584,7 +589,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(95, 95, 95)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -601,7 +606,7 @@
         "microvia_drill": 0.1,
         "name": "GPIO",
         "pcb_color": "rgb(78, 105, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -618,7 +623,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 145, 4)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -635,12 +640,22 @@
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgb(0, 255, 24)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.158,
+        "name": "USB",
+        "pcb_color": "rgb(0, 255, 32)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.158
       }
     ],
     "meta": {
@@ -702,6 +717,22 @@
       {
         "netclass": "UART",
         "pattern": "*RX"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/PWR/USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/PWR/USB_D+"
       }
     ]
   },
