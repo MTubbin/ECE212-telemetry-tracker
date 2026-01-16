@@ -65,38 +65,6 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|121705000|88200000|3db47654-8325-4af1-ab0d-9d59997bc8d2|37cd95ae-2989-4e31-898a-509b676546d6",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|88200000|3db47654-8325-4af1-ab0d-9d59997bc8d2|7ad7c5be-23ff-4e42-a343-d35d14868d05",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|88400000|3db47654-8325-4af1-ab0d-9d59997bc8d2|355c93d3-942d-47f3-b8bd-3d11842a7fb6",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|88400000|3db47654-8325-4af1-ab0d-9d59997bc8d2|bfba24f0-5b18-4b7b-962d-fca9f377b86c",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|93800000|818ab352-33b7-4857-9e80-4c0a852a980e|8fa8d2fc-cc92-4743-a3c5-1c2acdc51fda",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|93800000|818ab352-33b7-4857-9e80-4c0a852a980e|af68a641-90b7-45ff-ab33-161ff91f554a",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|94000000|818ab352-33b7-4857-9e80-4c0a852a980e|2d9f9a95-666b-48b0-8bf6-8fc168bf0ea6",
-          ""
-        ],
-        [
-          "hole_clearance|121705000|94000000|818ab352-33b7-4857-9e80-4c0a852a980e|9889bf39-1f25-40f6-8805-99cd37a73ea0",
-          ""
-        ],
-        [
           "silk_edge_clearance|116739999|62220595|57adba6b-8262-4e98-ac95-49e0fc31dfc0|2c5fbf9d-991f-46a9-a2f3-1ecf98f1257a",
           ""
         ],
@@ -217,7 +185,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -880,6 +848,12 @@
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC #",
+          "name": "LCSC #",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -887,7 +861,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

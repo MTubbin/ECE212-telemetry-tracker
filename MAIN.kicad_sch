@@ -7127,155 +7127,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 39.37 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "039b7813-98d2-4d2e-a2ba-1d839859167c")
-		(property "Reference" "J1"
-			(at 39.37 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 39.37 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2988369.pdf"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2988369"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GT-USB-7010ASV"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "G-Switch"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C2988369.html?s_z=n_GT-USB-7010ASV"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "fc3b95ba-f64a-4521-b8ab-136c0c28f4c2")
-		)
-		(pin "A12"
-			(uuid "4597b6ea-ac4a-4504-9479-c2a22ae16e47")
-		)
-		(pin "B8"
-			(uuid "b98fe45d-9af4-4380-a584-62200ea85f39")
-		)
-		(pin "B7"
-			(uuid "8a6ba8a1-ffe1-49d8-a0eb-8d3d3e365fd0")
-		)
-		(pin "A5"
-			(uuid "11c27e69-b397-4603-9c79-161136b1c9af")
-		)
-		(pin "B1"
-			(uuid "56c5434e-eeef-4808-9522-b14079fd22ac")
-		)
-		(pin "S1"
-			(uuid "8175253e-0aa9-4fd6-a83c-28cf87e95052")
-		)
-		(pin "B12"
-			(uuid "13d5c3b8-7f57-4ef1-b94b-8fe76e8c86ae")
-		)
-		(pin "B9"
-			(uuid "5d76483d-18c4-49be-a369-e165cb1c9c2f")
-		)
-		(pin "B5"
-			(uuid "3b89a80e-92c8-4f5d-b8f8-bdbffcb3d4ef")
-		)
-		(pin "A6"
-			(uuid "b0e9dfe3-4638-4b87-b769-9cc058640781")
-		)
-		(pin "A4"
-			(uuid "2db1d34e-b419-4c8a-b2af-3839dce1ff48")
-		)
-		(pin "B6"
-			(uuid "65ff8aa0-5a1f-4493-92e1-5e637aaf656d")
-		)
-		(pin "A1"
-			(uuid "9c0a8958-3ddd-4a4a-a354-35913882538c")
-		)
-		(pin "A9"
-			(uuid "ebd16529-e8b2-4a93-8daf-3f748b42415a")
-		)
-		(pin "A7"
-			(uuid "b0b62e6f-39d9-4971-8cac-1c19a75b323c")
-		)
-		(pin "A8"
-			(uuid "6584d6f4-c3de-4894-8666-d77fd34c18e9")
-		)
-		(instances
-			(project "ESP32_Tracker"
-				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 139.7 36.83 180)
 		(unit 1)
@@ -10197,6 +10048,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 39.37 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad57b76-ee6f-415d-af5e-72729bce41b5")
+		(property "Reference" "J6"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2988369.pdf"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4105-GF-A"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B4"
+			(uuid "3932d770-6894-4179-b739-d91f3a9c7b23")
+		)
+		(pin "A12"
+			(uuid "f52c0f3e-a5d4-41c8-bbd8-cbdb091a799d")
+		)
+		(pin "B8"
+			(uuid "46910ffa-eb6d-4980-aed4-fae5a160535e")
+		)
+		(pin "B7"
+			(uuid "4bc494d1-e634-431b-87e5-c31a38fa3f45")
+		)
+		(pin "A5"
+			(uuid "67c9133f-2dfa-4a22-910c-e9d157b50d98")
+		)
+		(pin "B1"
+			(uuid "90b33868-0c24-48c5-b4c5-087f5d921f31")
+		)
+		(pin "S1"
+			(uuid "bad9c658-f436-4cce-8efd-cf9f3fa03bc8")
+		)
+		(pin "B12"
+			(uuid "0b7d23e9-cb7d-437a-b552-3cfe599edf0b")
+		)
+		(pin "B9"
+			(uuid "362be267-e7c9-4bc9-9479-da9a30ebac9f")
+		)
+		(pin "B5"
+			(uuid "0d6ccce7-0bcc-48b4-89bb-52a2a962a1ee")
+		)
+		(pin "A6"
+			(uuid "68dd74e6-5fc4-4d9e-98f8-028a3fde51e2")
+		)
+		(pin "A4"
+			(uuid "3b9f3fae-de98-492c-9933-a839a5a66f77")
+		)
+		(pin "B6"
+			(uuid "a9b3ad72-42d6-47f2-89bb-ce9f276ec798")
+		)
+		(pin "A1"
+			(uuid "70b3fd0c-a769-48fa-8ce3-91fee41c9e5e")
+		)
+		(pin "A9"
+			(uuid "9a809e15-32de-4e38-b1fe-6ce11eaacb58")
+		)
+		(pin "A7"
+			(uuid "16ed9b43-3211-4e36-b4a2-9ee907dce4ab")
+		)
+		(pin "A8"
+			(uuid "daa5d6e9-d656-4166-9664-74c5f7d5458e")
+		)
+		(instances
+			(project "ESP32_Tracker"
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 46.99 116.84 0)
 		(unit 1)
@@ -11464,7 +11464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" ""
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -11473,7 +11473,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TL3305CF260QG"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -11482,7 +11482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "E-Switch"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -11491,7 +11491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C720477.html?s_z=n_push%2520button%2520switch"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/e-switch/TL3305CF260QG/5816186"
 			(at 177.8 128.27 0)
 			(effects
 				(font
@@ -12041,7 +12041,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" ""
 			(at 214.63 147.32 0)
 			(effects
 				(font
@@ -12050,7 +12050,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TL3305CF260QG"
 			(at 214.63 147.32 0)
 			(effects
 				(font
@@ -12059,7 +12059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "E-Switch"
 			(at 214.63 147.32 0)
 			(effects
 				(font
@@ -12068,7 +12068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C720477.html?s_z=n_push%2520button%2520switch"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/e-switch/TL3305CF260QG/5816186"
 			(at 214.63 147.32 0)
 			(effects
 				(font
@@ -12882,7 +12882,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" ""
 			(at 158.75 166.37 0)
 			(effects
 				(font
@@ -12891,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TL3305CF260QG"
 			(at 158.75 166.37 0)
 			(effects
 				(font
@@ -12900,7 +12900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "E-Switch"
 			(at 158.75 166.37 0)
 			(effects
 				(font
@@ -12909,7 +12909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/C720477.html?s_z=n_push%2520button%2520switch"
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/e-switch/TL3305CF260QG/5816186"
 			(at 158.75 166.37 0)
 			(effects
 				(font
