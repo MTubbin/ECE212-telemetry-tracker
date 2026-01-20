@@ -4580,7 +4580,7 @@
 	)
 	(text "Why LiPo?\nThin, compact\nAdafruit protection circuitry\nright voltage\nnot great lifespan compared to others"
 		(exclude_from_sim no)
-		(at 285.242 76.454 0)
+		(at 260.858 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4590,7 +4590,7 @@
 	)
 	(text "Batt IC Alternatives:\nMP2667\nMCP73871"
 		(exclude_from_sim no)
-		(at 286.258 95.758 0)
+		(at 261.874 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4660,7 +4660,7 @@
 	)
 	(text "adafruit LiPo has built in \nprotection circuitry\nonly need charging IC\n\n"
 		(exclude_from_sim no)
-		(at 286.512 88.646 0)
+		(at 262.128 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
