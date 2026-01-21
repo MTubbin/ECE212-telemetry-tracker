@@ -5,7 +5,7 @@
 	(uuid "ee411b0a-35a1-40ff-a202-c4375afbd5ed")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x07_Socket"
+		(symbol "Connector:Conn_01x08_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x07_Socket"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x08_Socket"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x07, script generated"
+			(property "Description" "Generic connector, single row, 01x08, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x07_Socket_1_1"
+			(symbol "Conn_01x08_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 7.62) (xy -0.508 7.62)
@@ -158,6 +158,18 @@
 				(polyline
 					(pts
 						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
 					)
 					(stroke
 						(width 0.1524)
@@ -243,6 +255,18 @@
 					(start 0 -8.128)
 					(mid -0.5058 -7.62)
 					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -370,6 +394,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1282,12 +1324,6 @@
 		(uuid "bf3ccadf-a44f-4465-9490-b04e3d1b5665")
 	)
 	(junction
-		(at 140.97 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c92ec65-6b94-4966-b5d5-536d937da622")
-	)
-	(junction
 		(at 162.56 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1352,6 +1388,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73b9a96f-fa29-46f7-a10c-6a0fc72c739f")
+	)
+	(junction
+		(at 137.16 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878d9e29-3008-4053-bb74-a3a831a44da9")
 	)
 	(junction
 		(at 123.19 134.62)
@@ -1553,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 137.16) (xy 140.97 137.16)
+			(xy 148.59 137.16) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 121.92) (xy 140.97 123.19)
+			(xy 137.16 121.92) (xy 137.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 123.19) (xy 140.97 137.16)
+			(xy 137.16 123.19) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 144.78) (xy 146.05 144.78)
+			(xy 129.54 144.78) (xy 148.59 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 134.62) (xy 146.05 134.62)
+			(xy 123.19 134.62) (xy 148.59 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 123.19) (xy 140.97 123.19)
+			(xy 129.54 123.19) (xy 137.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2095,7 @@
 	)
 	(hierarchical_label "OLED{slash}SD_MOSI"
 		(shape input)
-		(at 146.05 142.24 180)
+		(at 148.59 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2062,9 +2104,20 @@
 		)
 		(uuid "02b26d6a-d8af-4b5e-9180-aad63b2f15ad")
 	)
+	(hierarchical_label "OLED_DET"
+		(shape output)
+		(at 148.59 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b889df1-7009-479e-8079-f58c86f860c6")
+	)
 	(hierarchical_label "OLED{slash}SD_SCK"
 		(shape input)
-		(at 146.05 139.7 180)
+		(at 148.59 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2086,7 +2139,7 @@
 	)
 	(hierarchical_label "OLED_RST"
 		(shape input)
-		(at 146.05 149.86 180)
+		(at 148.59 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2152,7 +2205,7 @@
 	)
 	(hierarchical_label "OLED_DC"
 		(shape input)
-		(at 146.05 147.32 180)
+		(at 148.59 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2507,7 +2560,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 140.97 121.92 0)
+		(at 137.16 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2516,7 +2569,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cfd77b0-8122-4222-a123-35410252f8b2")
 		(property "Reference" "#PWR037"
-			(at 140.97 125.73 0)
+			(at 137.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2578,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 140.97 116.84 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 121.92 0)
+			(at 137.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 121.92 0)
+			(at 137.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 140.97 121.92 0)
+			(at 137.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,6 +2865,121 @@
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 153.67 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aab469f-6b17-4351-b0f4-6bc42c7d654f")
+		(property "Reference" "J5"
+			(at 154.94 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 154.94 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S8B-PH-K-S/926632?s=N4IgTCBcDaIMoA4BCBaACgCRQaRXEAugL5A"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S8B-PH-K-S"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b1498122-ad9f-4e92-a9e8-6a4547560287")
+		)
+		(pin "3"
+			(uuid "76f9632e-14cb-47e0-9c5c-62e940e73252")
+		)
+		(pin "7"
+			(uuid "1fb96f4a-2773-46e6-98c9-ab5295fefa43")
+		)
+		(pin "8"
+			(uuid "0a38b8c3-07ea-48d9-b428-e853752dc323")
+		)
+		(pin "1"
+			(uuid "fa4f4b4a-448d-4aa2-98f2-d422e9b328c7")
+		)
+		(pin "6"
+			(uuid "6757ca09-1193-4951-b6b5-24cf6d039df3")
+		)
+		(pin "2"
+			(uuid "380b3c26-379b-4232-aeb8-dffe321e344b")
+		)
+		(pin "5"
+			(uuid "24f754e3-f071-4ac0-b9fe-8a10e5ee62d6")
+		)
+		(instances
+			(project "ESP32_Tracker"
+				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3797,125 +3965,6 @@
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Socket")
-		(at 151.13 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f85524de-aded-4255-bcf1-9f7cc8fe8768")
-		(property "Reference" "J5"
-			(at 156.21 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x07_Socket"
-			(at 153.67 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S7B-PH-K-S/926631"
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "S7B-PH-K-S"
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY" ""
-			(at 151.13 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba3a4a65-7f29-48b0-9f50-6a35e408eb2b")
-		)
-		(pin "3"
-			(uuid "e9e155cc-75d2-4721-af1c-ebac1f20cd9b")
-		)
-		(pin "5"
-			(uuid "8d0d99d5-cb06-4f57-98d4-6d115092c966")
-		)
-		(pin "7"
-			(uuid "5579673e-10cf-4b9b-9200-b66505339207")
-		)
-		(pin "2"
-			(uuid "7e055e7a-5cf2-4cfb-bb24-bf49a444f718")
-		)
-		(pin "4"
-			(uuid "56aaf700-b22d-4efd-bb29-b1cfb1ab2e7c")
-		)
-		(pin "6"
-			(uuid "079829b9-26e9-4270-b71a-f2eb4bb2b4aa")
-		)
-		(instances
-			(project "ESP32_Tracker"
-				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/397d7a99-8f38-42c5-a73f-5d1ccdc57b5a"
-					(reference "J5")
 					(unit 1)
 				)
 			)

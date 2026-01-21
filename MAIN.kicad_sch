@@ -4959,10 +4959,6 @@
 		(uuid "fdc5e617-637a-4016-9617-a94cf7f716b8")
 	)
 	(no_connect
-		(at 107.95 157.48)
-		(uuid "07683647-6d55-4336-9218-e94a2d2566bd")
-	)
-	(no_connect
 		(at 107.95 149.86)
 		(uuid "09743e28-d312-42d5-b6b1-bbf7f15d9b4c")
 	)
@@ -5352,7 +5348,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 139.7) (xy 119.38 139.7)
+			(xy 107.95 139.7) (xy 120.65 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5972,7 +5968,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 119.38 156.21)
+			(xy 120.65 139.7) (xy 120.65 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6082,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 156.21) (xy 133.35 156.21)
+			(xy 120.65 156.21) (xy 133.35 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6921,7 +6917,7 @@
 		(uuid "c6cad732-3f3b-4981-b960-3ca4ba8fe0ba")
 	)
 	(label "SW_TOGGLE"
-		(at 119.38 139.7 180)
+		(at 120.65 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7059,6 +7055,17 @@
 			(justify left)
 		)
 		(uuid "c3ac803b-1700-4ff2-8b2a-b2cf5ae9a4a6")
+	)
+	(hierarchical_label "OLED_DET"
+		(shape input)
+		(at 107.95 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed3fc073-bdc3-4780-9da8-823bdba4481d")
 	)
 	(hierarchical_label "MAG_INT"
 		(shape input)
