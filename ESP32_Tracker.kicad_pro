@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -109,19 +109,19 @@
           ""
         ],
         [
-          "silk_edge_clearance|170149968|62001249|812578db-fee5-4d81-a03f-c3a12fb23a83|54c71f83-44b3-4f97-9a0c-c3035dff2985",
+          "silk_edge_clearance|170403047|62015610|812578db-fee5-4d81-a03f-c3a12fb23a83|54c71f83-44b3-4f97-9a0c-c3035dff2985",
           ""
         ],
         [
-          "silk_overlap|139500000|67500000|a0d78b4d-1efb-4967-b9d7-29cf91f3b7f7|b487aa2d-2fe9-4414-a680-ff330baca847",
+          "silk_overlap|139500000|67700000|a0d78b4d-1efb-4967-b9d7-29cf91f3b7f7|b487aa2d-2fe9-4414-a680-ff330baca847",
           ""
         ],
         [
-          "silk_overlap|155100000|67500000|32858e88-8f3d-4a84-95b6-0d8795ae6266|a0d78b4d-1efb-4967-b9d7-29cf91f3b7f7",
+          "silk_overlap|155100000|67700000|32858e88-8f3d-4a84-95b6-0d8795ae6266|a0d78b4d-1efb-4967-b9d7-29cf91f3b7f7",
           ""
         ],
         [
-          "silk_overlap|169654819|74350000|124572ac-d15e-4be6-99ec-a69e258751c9|9f25a2e8-19c9-4ff7-9c23-5bc3f7ceea39",
+          "silk_overlap|169702438|74350000|124572ac-d15e-4be6-99ec-a69e258751c9|9f25a2e8-19c9-4ff7-9c23-5bc3f7ceea39",
           ""
         ],
         [
@@ -898,8 +898,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Distributor Link"
+      "sort_asc": true,
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

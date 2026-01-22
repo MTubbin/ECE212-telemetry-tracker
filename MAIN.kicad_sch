@@ -7087,7 +7087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01e61731-fd08-46a0-8c24-bb6d6dda869a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR016"
 			(at 125.73 120.65 0)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR042")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc6d487-0948-421e-95fb-586ae03d7b85")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 49.53 124.46 0)
 			(effects
 				(font
@@ -7498,7 +7498,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7513,7 +7513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc795c0-287e-4a93-a161-dbbae2589fdd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR09"
 			(at 69.85 62.23 0)
 			(effects
 				(font
@@ -7563,7 +7563,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR016")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7578,7 +7578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e927732-9791-4023-9910-774ad813b17c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 152.4 111.76 0)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b4baeb3-9e49-40c6-bf7f-90b1179f210e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR026"
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 		(instances
 			(project ""
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR041")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7837,7 +7837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cd6a720-e8f9-47f0-983f-a3ae88c3ef03")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 196.85 77.47 0)
 			(effects
 				(font
@@ -7887,7 +7887,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7903,7 +7903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a6c26ff-5a1d-478d-88f6-c4be8e77605f")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 177.8 45.7199 0)
 			(effects
 				(font
@@ -8002,7 +8002,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8017,7 +8017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "300b5506-4a50-47db-9a6d-06d6b2b7aa46")
-		(property "Reference" "TP9"
+		(property "Reference" "TP4"
 			(at 98.044 167.64 0)
 			(effects
 				(font
@@ -8105,7 +8105,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP9")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8121,7 +8121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30f3be75-f159-4b94-a7db-344e7b930303")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 180.34 45.72 0)
 			(effects
 				(font
@@ -8171,7 +8171,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8187,7 +8187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32517ef6-3652-48e8-8415-44a79f2274d8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 229.87 52.07 0)
 			(effects
 				(font
@@ -8237,7 +8237,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8356,7 +8356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "339d5cb7-8fe7-499d-92c8-7dcb3f55775a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 264.16 30.48 0)
 			(effects
 				(font
@@ -8406,7 +8406,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8421,7 +8421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33cb6b17-5ce2-46c5-961c-4ec4005916ad")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 204.978 62.484 0)
 			(effects
 				(font
@@ -8518,7 +8518,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8534,7 +8534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34f898e2-a63f-4253-aed7-82007b254f59")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 187.198 58.928 0)
 			(effects
 				(font
@@ -8621,7 +8621,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8637,7 +8637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f635ac-fb35-4fd5-ac6d-123e0e50b9ae")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 55.88 116.332 0)
 			(effects
 				(font
@@ -8734,7 +8734,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8750,7 +8750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d83499-acc7-44b5-a06b-0d5cf2c1d199")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 170.18 73.66 90)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8863,7 +8863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "383dfc69-90bb-46e5-b5e5-d71c79675e13")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -8913,7 +8913,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3aaad5c9-07c9-4eaa-bd11-5769cbd7a576")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 133.35 107.9499 0)
 			(effects
 				(font
@@ -9012,7 +9012,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9027,7 +9027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e9556f5-64d2-4e9e-963f-a65d0bf55a59")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -9077,7 +9077,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9093,7 +9093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fb57064-0108-48e9-88c9-6d7e262bf0c5")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 86.36 87.6299 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9208,7 +9208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43451883-2af7-4c59-a5ca-995b74f0358b")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 80.01 23.3679 0)
 			(effects
 				(font
@@ -9295,7 +9295,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9310,7 +9310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "487ae32d-81c1-45e9-b053-30b7259bd6e2")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 71.12 101.6 0)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9375,7 +9375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fa21a93-f4c8-49f3-99e6-9567d727a5fc")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 64.77 32.004 90)
 			(effects
 				(font
@@ -9472,7 +9472,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9488,7 +9488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ce2e4b-8fc8-46d3-aabf-1219b65fd982")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 137.16 161.2899 0)
 			(effects
 				(font
@@ -9587,7 +9587,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9732,7 +9732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59c0f376-a928-484a-8b2f-86dc67244b0a")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 65.024 41.91 90)
 			(effects
 				(font
@@ -9829,7 +9829,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9960,7 +9960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb9f93f-0e10-494a-bf62-8c9542d176b3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -10010,7 +10010,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10149,7 +10149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f94c22-eec8-40a7-8175-1095ad1ccb28")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 251.46 23.3679 0)
 			(effects
 				(font
@@ -10236,7 +10236,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10252,7 +10252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad57b76-ee6f-415d-af5e-72729bce41b5")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 39.37 22.86 0)
 			(effects
 				(font
@@ -10394,7 +10394,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10522,7 +10522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "713cd662-25c4-44fc-99b5-18192253638e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 187.96 49.53 0)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10709,7 +10709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c27b8f2-9aa8-4f0e-891b-9d411d37321e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 133.35 149.86 0)
 			(effects
 				(font
@@ -10759,7 +10759,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR011")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10956,7 +10956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84942f31-6e58-4e61-af5f-609f317833e3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -11006,7 +11006,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11021,7 +11021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "897d17df-7b88-4d01-a98d-d05da867f5a1")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 132.08 36.83 90)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11134,7 +11134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dd98eab-5970-4d56-a0ba-5e5519052b72")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 195.58 36.83 90)
 			(effects
 				(font
@@ -11231,7 +11231,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11247,7 +11247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92399732-b426-479c-b363-36a165dab92e")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 149.86 111.7599 0)
 			(effects
 				(font
@@ -11346,7 +11346,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11362,7 +11362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "967231b6-7399-4905-9d0d-62f410ff15cb")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 64.77 95.2499 0)
 			(effects
 				(font
@@ -11461,7 +11461,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11476,7 +11476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9874cb21-2045-4203-b37c-1c4da9926424")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 156.21 123.1899 0)
 			(effects
 				(font
@@ -11575,7 +11575,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11591,7 +11591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "991e9275-8e23-4c06-9a04-4a53ac570ab6")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 176.53 62.2299 0)
 			(effects
 				(font
@@ -11690,7 +11690,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99bc6c2e-46e4-4153-a4a9-14fde083eda6")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 162.56 110.49 0)
 			(effects
 				(font
@@ -11803,7 +11803,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -11933,7 +11933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ee8da36-6594-4ba7-a703-6e1eba4ac71a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 204.47 156.21 0)
 			(effects
 				(font
@@ -11983,7 +11983,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11998,7 +11998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fcbe1a7-1e70-4ae6-a5f7-bf60b41cdfe4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 24.13 124.46 0)
 			(effects
 				(font
@@ -12048,7 +12048,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12064,7 +12064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a17c6e00-b916-44aa-9e15-56e6a6a44bd1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -12114,7 +12114,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12130,7 +12130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d52176-5833-4319-a0a3-ca1976361c87")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 195.58 142.2399 0)
 			(effects
 				(font
@@ -12229,7 +12229,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12244,7 +12244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6c2ca43-bcf5-4a4b-a8c3-b75bc2a57c23")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR018"
 			(at 149.86 175.26 0)
 			(effects
 				(font
@@ -12294,7 +12294,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR08")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12310,7 +12310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd35b46-9f10-4d76-b8c1-11bd208de160")
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 199.39 129.54 0)
 			(effects
 				(font
@@ -12407,7 +12407,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -12489,7 +12489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af258012-8674-4136-b1bc-771839f38f21")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 116.84 35.5599 0)
 			(effects
 				(font
@@ -12588,7 +12588,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12603,7 +12603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "affd304e-da6c-4f9b-9cdd-cbb4cb07b9f7")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 123.444 102.108 0)
 			(effects
 				(font
@@ -12691,7 +12691,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12706,7 +12706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b53385c6-c64e-44a3-9159-65305784e764")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 130.81 48.006 90)
 			(effects
 				(font
@@ -12803,7 +12803,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12818,7 +12818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6e0a90d-e45a-43ad-ae70-a0b17038f1a0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 191.77 130.81 0)
 			(effects
 				(font
@@ -12868,7 +12868,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12883,7 +12883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b718f7eb-df89-4d0a-b727-233ab6f9e05c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -12933,7 +12933,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12949,7 +12949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8cd1265-9e84-4b04-b14f-79e54d33f919")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 130.81 149.8599 0)
 			(effects
 				(font
@@ -13048,7 +13048,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13063,7 +13063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b95f991c-4e2f-4fe7-af81-cf24b51c1bf6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -13113,7 +13113,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13129,7 +13129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdaee030-59e6-4d5c-8cd8-093e757f130e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 92.71 173.99 0)
 			(effects
 				(font
@@ -13179,7 +13179,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13196,7 +13196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d139f629-43e7-49e0-8e39-73e32d0f4464")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 143.51 148.59 0)
 			(effects
 				(font
@@ -13293,7 +13293,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -13679,7 +13679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e66e0f32-df02-440c-a720-48fdaaaa215f")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 203.2 23.3679 0)
 			(effects
 				(font
@@ -13766,7 +13766,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -13847,7 +13847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea17914b-f993-471b-b121-79b505214376")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 189.23 130.8099 0)
 			(effects
 				(font
@@ -13946,7 +13946,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13961,7 +13961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea89eda9-218e-40f1-bad2-0753f74d323f")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 120.65 114.554 0)
 			(effects
 				(font
@@ -14049,7 +14049,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14064,7 +14064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed32c1d5-163a-42c0-ae66-d8cc7470e009")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 130.81 60.198 90)
 			(effects
 				(font
@@ -14161,7 +14161,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14177,7 +14177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f01cc728-0f8e-43f0-987d-61214a1085aa")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 74.93 87.6299 0)
 			(effects
 				(font
@@ -14276,7 +14276,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14292,7 +14292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f94f0c27-9157-4f59-a671-bbf1d958e35d")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 66.548 115.824 0)
 			(effects
 				(font
@@ -14379,7 +14379,7 @@
 		(instances
 			(project "ESP32_Tracker"
 				(path "/92195c42-0bc4-473e-a890-6f85786d3c69/b4df9ef1-8ff4-45c1-a208-fa7b3317f92b"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
