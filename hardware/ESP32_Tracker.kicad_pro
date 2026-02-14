@@ -744,7 +744,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP32_Tracker.step",
       "svg": "",
       "vrml": ""
     },
